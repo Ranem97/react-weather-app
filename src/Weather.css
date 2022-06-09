@@ -1,0 +1,58 @@
+.Weather {
+  font-family: "Roboto", sans-serif;
+  margin: 30px auto;
+  color: white;
+}
+
+.Weather .container {
+  border: 1px solid #b9aebe;
+  border-radius: 5px;
+  padding: 16px;
+  background-color: white;
+  background-image: url("../images/bluredsky.jpg");
+  background-size: cover;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather .btn {
+  background-color: #b9aebe;
+  border-color: #7a6794;
+}
+
+.Weather h1 {
+  font-size: 54px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.Weather .temp {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+.Weather .unit {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  position: relative;
+  line-height: 1;
+  top: -50px;
+}
+.Weather a {
+  text-decoration: none;
+}
+.Weather .min-max {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  margin-top: 0;
+  margin-left: 110px;
+  position: relative;
+  line-height: 1;
+  top: -20px;
+}
+
+.Weather img {
+  width: 94px;
+}

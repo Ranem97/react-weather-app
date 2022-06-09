@@ -1,0 +1,14 @@
+.WeatherForcast {
+  text-align: center;
+}
+
+.WeatherForcast img {
+  width: 50px !important;
+}
+
+.WeatherForcast .col-2 {
+  margin: 10px;
+  background: rgba(185, 174, 190, 0.73);
+  border-radius: 5px;
+  padding: 10px;
+}
