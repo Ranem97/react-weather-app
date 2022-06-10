@@ -21,8 +21,6 @@ export default function ForcastDay(props) {
     let day = date.getDay();
     return days[day];
   }
-
-  console.log(props);
   return (
     <div className="ForcastDay">
       <div className="WeatherForcast-day">{day()}</div>

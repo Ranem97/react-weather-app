@@ -9,7 +9,6 @@ export default function WeatherForcast(props) {
   let [forcast, setForcast] = useState(null);
 
   function handleResponse(response) {
-    //console.log(response.data.daily);
     setLoaded(true);
     setForcast(response.data.daily);
   }
@@ -21,6 +20,18 @@ export default function WeatherForcast(props) {
         <div className="row">
           <div className="col-2">
             <ForcastDay data={forcast[0]} />
+          </div>
+          <div className="col-2">
+            <ForcastDay data={forcast[1]} />
+          </div>
+          <div className="col-2">
+            <ForcastDay data={forcast[2]} />
+          </div>
+          <div className="col-2">
+            <ForcastDay data={forcast[3]} />
+          </div>
+          <div className="col-2">
+            <ForcastDay data={forcast[4]} />
           </div>
         </div>
       </div>

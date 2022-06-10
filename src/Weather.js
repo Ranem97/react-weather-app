@@ -12,7 +12,6 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    //console.log(response.data);
     setWeatherData({
       ready: true,
       coords: response.data.coord,
