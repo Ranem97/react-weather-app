@@ -8,7 +8,10 @@ function App() {
       <Weather defaultCity="Damascus" />
       <footer>
         <p>
-          <a href="https://github.com/Ranem97/weather-react" target="_blank">
+          <a
+            href="https://github.com/Ranem97/react-weather-app"
+            target="_blank"
+          >
             Open-Source Code
           </a>
           <span> by Ranem Haffar</span>
