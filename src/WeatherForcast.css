@@ -5,6 +5,9 @@
 .WeatherForcast img {
   width: 50px !important;
 }
+.WeatherForcast .row {
+  margin: 0 auto;
+}
 
 .WeatherForcast .col-2 {
   margin: 10px;

@@ -56,3 +56,11 @@
 .Weather img {
   width: 94px;
 }
+.Weather .night-mood {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 6px;
+  font-size: 1.4em;
+  margin: 10px;
+}

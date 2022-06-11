@@ -10,6 +10,7 @@ import "./Weather.css";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
+  const [mood, setMood] = useState("light");
 
   function handleResponse(response) {
     setWeatherData({
@@ -31,10 +32,21 @@ export default function Weather(props) {
   function handleCityChange(event) {
     setCity(event.target.value);
   }
+  function nightMood(event) {
+    event.preventDefault();
+    setMood("night");
+  }
 
   if (weatherData.ready) {
     return (
       <div className="Weather">
+        {/* <input
+          type="submit"
+          value="🌚"
+          className="btn night-mood"
+          onClick={nightMood}
+        /> */}
+
         <div className="container">
           <form onSubmit={handleSubmit}>
             <div className="row">
