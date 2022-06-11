@@ -11,6 +11,7 @@ function App() {
           <a
             href="https://github.com/Ranem97/react-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Open-Source Code
           </a>
