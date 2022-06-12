@@ -1,0 +1,12 @@
+#darkMood {
+  background-color: #b9aebe00;
+  border-color: #b9aebe;
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 6px;
+  font-size: 1.4em;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}

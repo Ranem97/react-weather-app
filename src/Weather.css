@@ -3,22 +3,39 @@
   margin: 30px auto;
   color: white;
 }
+body {
+  background: var(--image);
+  transition: background 0.3s ease-in-out;
+}
 
+body.light {
+  --image: url("../images/bluredsky.jpg");
+  --border-color: 1px solid #b9aebe;
+  --btn-color: #7a6794;
+  --btn-background: #b9aebe;
+}
+
+body.dark {
+  --image: url("../images/NightSkyblur.jpg");
+  --border-color: 1px solid #0c1512;
+  --btn-border-color: #c6dfed;
+  --btn-background: #0d405b;
+}
 .Weather .container {
-  border: 1px solid #b9aebe;
+  border: var(--border-color);
   border-radius: 5px;
   padding: 16px;
-  background-color: white;
-  background-image: url("../images/bluredsky.jpg");
   background-size: cover;
+  background-image: var(--image);
+  transition: background-image 0.7s ease-in-out;
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 .Weather .btn {
-  background-color: #b9aebe;
-  border-color: #7a6794;
+  background-color: var(--btn-background);
+  border-color: var(--btn-border-color);
 }
 
 .Weather h1 {
@@ -55,12 +72,4 @@
 
 .Weather img {
   width: 94px;
-}
-.Weather .night-mood {
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 6px;
-  font-size: 1.4em;
-  margin: 10px;
 }
