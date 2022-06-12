@@ -36,7 +36,7 @@ const NightMood = () => {
   return (
     <input
       type="button"
-      value="🌓"
+      value="🌗"
       className={theme === "dark" ? clickedClass : ""}
       id="darkMood"
       onClick={(e) => switchTheme(e)}
