@@ -15,7 +15,17 @@ function App() {
           >
             Open-Source Code
           </a>
-          <span> by Ranem Haffar</span>
+          <span>
+            {" "}
+            by{" "}
+            <a
+              href="https://focused-joliot-da009a.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ranem Haffar
+            </a>
+          </span>
         </p>
       </footer>
     </div>
