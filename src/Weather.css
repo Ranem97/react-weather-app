@@ -1,6 +1,6 @@
 .Weather {
   font-family: "Roboto", sans-serif;
-  margin: 30px auto;
+  margin: 0 auto;
   color: white;
 }
 body {
@@ -99,5 +99,10 @@ body.dark {
   }
   .Weather img {
     width: 54px;
+  }
+  .Weather .container {
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 5px auto;
   }
 }
