@@ -73,3 +73,31 @@ body.dark {
 .Weather img {
   width: 94px;
 }
+
+@media (max-width: 480px) {
+  .Weather h1 {
+    font-size: 34px;
+  }
+  .Weather h3 {
+    font-size: 24px;
+  }
+  .Weather h5 {
+    font-size: 18px;
+  }
+  .Weather .temp {
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  .Weather .unit {
+    font-size: 14px;
+    top: -30px;
+  }
+  .Weather .min-max {
+    font-size: 24px;
+    margin-left: 50px;
+    top: -10px;
+  }
+  .Weather img {
+    width: 54px;
+  }
+}

@@ -2,7 +2,7 @@ body {
   background: var(--background);
   transition: background 0.3s ease-in-out;
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 body.light {
@@ -22,10 +22,11 @@ body.dark {
 }
 .App {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 .App footer {
+  text-align: center;
   font-size: 11px;
   margin: 10px 0;
 }
